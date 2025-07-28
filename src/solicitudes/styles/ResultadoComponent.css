@@ -1,0 +1,33 @@
+/*Estilos para el compontente de resultados*/
+.resultadoDiv {
+
+  /*Size*/
+  min-height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 40% !important;
+
+}
+.resultadoDiv:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all .5s ease-in-out;
+  /**/
+}
+/*2 tipos de cambios, exito y no conforme*/
+.conforme:hover {
+    
+    background-color: #4AB563;
+    color: white;
+    
+}
+.noConforme:hover {
+    background-color: #BB2D3B;
+    color: white;
+}

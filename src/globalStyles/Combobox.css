@@ -1,0 +1,67 @@
+:root {
+    --gray: #111827;
+    --darkgray: #2D2F39;
+  }
+  .dropDownCombobox{
+    transition: all 1s ease;
+  }
+  select {
+    /* Reset Select */
+    appearance: none;
+    outline: 10px red;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+    background-color: #2D2F39;
+
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #A9DFD8;
+    padding: 1em;
+    background-color:#2D2F39 !important;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #A9DFD8;
+  }
+  
+  /* Other styles*/
+  body {
+    color: #fff;
+    background: var(--background-gradient);
+  }
+  
+  
+  
+  /* 가운데정렬 - position,transform*/
+  .combobox {
+   background-color: #111827;
+  }
+  
+  

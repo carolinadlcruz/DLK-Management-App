@@ -1,0 +1,84 @@
+/*.containerTable th h1 {
+  font-weight: bold;
+  font-size: .8em;
+text-align: left;
+color: #13B7CC;
+}
+
+.containerTable td {
+  font-weight: normal;
+  font-size: .7em;
+
+}
+
+.containerTable {
+  text-align: left;
+  overflow: hidden;
+  margin: 0 auto;
+display: table;
+}
+
+.containerTable td, .container th {
+ 
+}
+
+/* Background-color of the odd rows 
+.containerTable tr:nth-child(odd) {
+}
+*/
+
+/* Background-color of the even rows 
+.containerTable tr:nth-child(even) {
+  background-color: #242526;
+
+}
+*/
+/*
+
+.containerTable tr:hover {
+ background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.containerTable td:hover {
+
+transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+}
+
+@media (max-width: 800px) {
+.containerTable td:nth-child(4),
+.containerTable th:nth-child(4) { display: none; }
+}
+
+*/
+
+
+//Estilos de la tabla
+
+//Encabezado
+.encabezadoTablaItem{
+    color: #13B7CC;
+    font-size: .8rem;
+  }
+  
+  //Cuerpo de la tabla y items
+  .itemTabla{
+    font-size: .8rem;
+  
+  }
+  
+  //Icons
+  .btnView{
+    border: none;
+    background-color: transparent;
+    color: #767676;
+  }
+  .btnView:hover{
+    color: white;
+    transition: all .3s;
+  }
+  

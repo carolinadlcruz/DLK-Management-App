@@ -1,0 +1,25 @@
+.parteMainContainer {
+  border-radius: 15px !important;
+  background-color: #161a23 !important;
+  box-shadow: 0 0 10px 5px rgba(15, 25, 43, 0.5);
+  margin-left: 5px;
+}
+
+.form__field {
+  font-family: inherit;
+  border-radius: 10px;
+  width: 100%;
+  outline: 0;
+  font-size: 1rem;
+  color: #fff;
+  padding: 15px 15px 15px 15px;
+  background: transparent;
+  transition: border-color 0.2s;
+  background-color: transparent;
+  margin-left: -10px !important;
+}
+.search-icon {
+  margin-top: 45px !important;
+  margin-left: -35px;
+  color: #13b7cc !important;
+}

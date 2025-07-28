@@ -1,0 +1,96 @@
+.nav-link.active {
+    background-color: #2D2F39 !important ; /* Set the desired background color */
+    color: black !important; /* Set the desired text color */
+      /* Agrega cualquier otro estilo que desees para el elemento seleccionado */
+
+  }
+
+  .salto{
+    background: #132F59 !important;
+    color: #132F59 !important;
+  }
+  .Sidebar {
+    text-decoration: none !important;
+    background-color: #161A23 !important;
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    min-height: 100vh;
+    position: fixed; /* Cambiamos 'sticky' por 'fixed' */
+    top: 0; /* Fijamos el sidebar en la parte superior */
+    left: 0; /* Fijamos el sidebar en el borde izquierdo */
+    width: 200px; /* Ancho deseado del sidebar */
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    overflow-y: auto; /* Añadimos desplazamiento vertical si el contenido excede el tamaño del sidebar */
+
+}
+.Sidebar li{
+
+    color: gray !important;
+}
+
+/* Estilos adicionales para el contenido */
+.content {
+    margin-left: 220px; /* Ajustamos el margen izquierdo del contenido para dejar espacio para el sidebar */
+}
+
+.nameTitle
+{
+  font-size: 12px !important;
+  margin-top: 10px;
+}
+
+body {
+  width:100%;
+  background: #e2e2e2;
+}
+
+.imageDiv {
+  position: relative;
+  padding: 13px !important;
+  
+}
+
+.background {
+  position: absolute;
+  width: 96%;
+  height: 96%;
+  top: 2%;
+  left: 2%;
+  transform-origin: center;
+  background-image: url('../assets//bgIcon.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: rotateBackground 20s linear infinite;
+}
+
+.profileImage {
+  width: 60% !important; /* Aumenta el tamaño de la imagen al 80% */
+  height: 60% !important; /* Aumenta el tamaño de la imagen al 80% */
+  z-index: 10 !important;
+  box-shadow: 0 0 60px 5px rgba(1, 117, 252, 0.5); /* Sombra exterior con difuminado */
+  border-radius: 50%;
+}
+
+@keyframes rotateBackground {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shadowGlow {
+  0% {
+    transform: rotate(0deg);
+
+      box-shadow: 0 0 10px 5px rgba(1, 117, 252, 0.5); /* Sombra con brillo */
+  }
+  100% {
+    transform: rotate(360deg);
+
+      box-shadow: 0 0 10px 5px rgba(1, 117, 252, 0); /* Sin sombra */
+  }
+}

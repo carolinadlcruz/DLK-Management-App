@@ -1,0 +1,131 @@
+/*Estilos del modal*/
+.modalServicio {
+  /*Vamos a meter estilos*/
+  background-color: #21252b !important;
+}
+
+.inputModal {
+  background-color: #2b2b2b !important;
+  border-color: gray;
+  color: white !important;
+}
+
+/*test*/
+.inputModal::placeholder {
+  color: gray;
+}
+
+.usuariosMainContainer {
+  border-radius: 15px !important;
+  background-color: #111827 !important;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /* Sombra exterior con difuminado */ /* Sombra exterior con difuminado */
+  margin-left: 5px;
+}
+
+.image {
+  position: relative;
+  border-radius: 50%;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  border-radius: 50%;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+  background: #111;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1em;
+  margin-top: 0.25em;
+}
+
+.form__field {
+  font-family: inherit;
+  border: 0 !important;
+  border-radius: 10px;
+  width: 100%;
+  outline: 0;
+  font-size: 1rem;
+  color: #fff;
+  padding: 15px 15px 15px 15px;
+  background: transparent;
+  transition: border-color 0.2s;
+  background-color: transparent;
+  margin-left: -10px !important;
+}
+.search-icon {
+  margin-top: 45px !important;
+  margin-left: -35px;
+  color: #13b7cc !important;
+}
+.info-icon {
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+}
+
+.tooltip-image {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  z-index: 999;
+  width: 500px;
+  padding: 5px;
+  background: rgb(0, 0, 0);
+  border: 1px solid #0d0840;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.info-icon:hover .tooltip-image {
+  display: block;
+}
+
+.tooltip-image img {
+  width: 100%;
+  height: auto;
+}

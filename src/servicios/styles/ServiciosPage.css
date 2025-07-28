@@ -1,0 +1,56 @@
+.serviciosTotales {
+  color: #4ea8de;
+  margin-top: 0.8rem;
+}
+.iconHeader {
+  color: #13b7cc;
+}
+
+/*Estilos del modal*/
+.modalServicio {
+  /*Vamos a meter estilos*/
+  background-color: #21252b !important;
+}
+
+.inputModal {
+  background-color: #2b2b2b !important;
+  border-color: gray;
+  color: white !important;
+}
+
+.inputModal::placeholder {
+  color: gray;
+}
+
+.barraBusqueda {
+  background-color: #2b2b2b !important;
+  color: white !important;
+}
+
+.divContainerServicios {
+  border-radius: 5px !important;
+  background-color: #161a23 !important;
+  box-shadow: 0 0 10px 5px rgba(15, 25, 43, 0.5);
+  margin-left: 15px;
+}
+.form__field {
+  font-family: inherit;
+  border: 0 !important;
+  border-radius: 10px;
+  width: 100%;
+  outline: 0;
+  font-size: 1rem;
+  color: #fff;
+  padding: 15px 15px 15px 15px;
+  background: transparent;
+  transition: border-color 0.2s;
+  background-color: transparent;
+  border: 1px solid #102e5c !important;
+  margin-left: -10px !important;
+  box-shadow: 0 0 15px 1px rgba(1, 117, 252, 0.2) !important; /* Sombra exterior con difuminado */
+}
+.search-icon {
+  margin-top: 45px !important;
+  margin-left: -35px;
+  color: #13b7cc !important;
+}

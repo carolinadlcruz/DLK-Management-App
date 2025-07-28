@@ -1,0 +1,28 @@
+.addButton {
+  width: 100%;
+  min-width: 140px;
+  padding: 0.6rem 1rem;
+  background-color: #4ea8de;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@keyframes brillo {
+  0% {
+    background-color: #4ea8de; /* Color inicial */
+    box-shadow: 0 0 15px 15px rgba(1, 117, 252, 0.2); /* Sombra inicial */
+  }
+  50% {
+    background-color: #9ad1f0; /* Cambio a un color más claro */
+    box-shadow: 0 0 30px 30px rgba(1, 117, 252, 0.6); /* Sombra más brillante */
+  }
+  100% {
+    background-color: #4ea8de; /* Vuelve al color original */
+    box-shadow: 0 0 15px 15px rgba(1, 117, 252, 0.2); /* Sombra inicial */
+  }
+}

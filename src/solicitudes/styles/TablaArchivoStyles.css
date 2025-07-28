@@ -1,0 +1,11 @@
+/* Estilos para celdas seleccionadas */
+#tablaSeleccionable td.seleccionado {
+    background-color: #cce5ff; /* Cambia el color de fondo cuando se selecciona */
+    border: 2px solid #007bff; /* Agrega un borde para resaltar la selección */
+    outline: none; /* Quita el contorno predeterminado */
+}
+
+/* Estilos para celdas no seleccionadas */
+#tablaSeleccionable td.no-seleccionado {
+    background-color: transparent; /* Fondo transparente para celdas no seleccionadas */
+}

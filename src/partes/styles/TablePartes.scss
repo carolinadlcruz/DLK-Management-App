@@ -1,0 +1,47 @@
+//Encabezado
+.encabezadoTablaItem {
+  color: #13b7cc;
+  font-size: 0.8rem;
+}
+
+//Cuerpo de la tabla y items
+.itemTabla {
+  font-size: 0.8rem;
+}
+//Icons
+
+.editIcon {
+  color: #fcb859;
+}
+
+.deleteIcon {
+  color: #ec4c4c;
+}
+
+//Efectos
+.btnEdit,
+.btnDelete {
+  border: none;
+  background-color: transparent;
+  color: #767676;
+}
+.editIcon:hover {
+  color: white;
+  transition: all 0.3s;
+}
+.deleteIcon:hover {
+  color: white;
+  transition: all 0.3s;
+}
+
+//Colores alternos entre divs
+/* Estilos para filas pares */
+/* Estilos para filas pares */
+.rowTabla:nth-child(even) {
+  background-color: green; /* Cambia el color para filas pares */
+}
+
+/* Estilos para filas impares */
+.rowTabla:nth-child(odd) {
+  background-color: red; /* Cambia el color para filas impares */
+}

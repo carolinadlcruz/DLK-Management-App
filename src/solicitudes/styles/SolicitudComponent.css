@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+.contenedorSolicitudes {
+  color: #bdbdbd !important;
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px !important;
+  margin-left: 4px;
+}
+
+.warning-text {
+  color: #50555c !important;
+  font-weight: bold;
+}
+
+.progressDiv {
+  height: 50% !important;
+  margin: 10px !important;
+  padding: 8px !important;
+}
+.progressDiv p {
+  margin: 0 !important;
+}
+.filaTable div p {
+}
+/* Estilo inicial del div desplegable */
+/* Estilo inicial del div desplegable */
+.divDropDown {
+  margin-top: 0px !important;
+  border-radius: 0 0 5px 5px !important;
+}
+
+.priority-badge {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  min-width: 18px;
+  height: 18px;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 0, 0);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  padding: 0 4px;
+}
+
+.btnIniciarAnalisis {
+  background-color: transparent;
+  border: 1px solid #17a2b8; /* teal or blueish border */
+  color: #13afc4 !important;
+  border-radius: 30px;
+  padding: 6px 18px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btnIniciarAnalisis:hover {
+  background-color: #17a2b8;
+  color: rgb(255, 255, 255) !important;
+  box-shadow: 0 0 6px #17a2b880;
+  cursor: pointer;
+}
+
+.dropIcon {
+  transition: transform 0.3s ease;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.seleccionada {
+  transition: box-shadow 0.5s ease;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /*Color del div desplegable*/
+  background: #161a23 !important;
+}
+
+.containerSolicitud {
+  border-radius: 0 0 5px 5px !important;
+  width: 100%;
+}
+.filaTable {
+  border-radius: 0 0 5px 5px !important;
+}
+.adicionalHeader {
+  color: #4ea8de !important;
+  margin-top: -30px;
+}
+.desplegable {
+  margin-left: 10px;
+  padding: 40px !important;
+  margin-top: 10px !important;
+}
+/*Estilos para los estados*/
+.inProgress {
+  background: #ffa500 !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+}
+
+.corte {
+  background: #1357cc !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+}
+
+.nuevo {
+  background: #13b7cc !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+}
+.porRecoger {
+  background: #00b884 !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+}
+/*ESTILOS PARA LA PARTE DE LOS SERVICIOS DE LA SOLICITUD*/
+.statusServiceLabel {
+  background: #13b7cc !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*Estilos para el estado de nuevo.*/
+.servicioNoEmpezado {
+  background: #13b7cc !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.servicioEnproceso {
+  background: #ffa500 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.servicioFinalizado {
+  background: #00b884 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*Estilos de la grafica*/
+.progress-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+.progress-ring-circle {
+  transition: stroke-dashoffset 2s ease-in-out; /* Aquí ajusta el tiempo de la transición según tus preferencias */
+
+  transform: translate(5px, 5px);
+  transform-origin: 50% 50%;
+  /**/
+}
+.percentage {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff !important;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.divPrioridad {
+  align-self: end !important;
+}
+
+.btnPrioridad {
+  background-color: #da2335;
+  border-radius: 30px;
+}
+
+.adicionalBody {
+  max-height: 80px;
+}
+
+.btnAsignarPrioridad {
+  border-radius: 30px;
+  padding: 6px 18px;
+  margin-right: 10px;
+  margin-top: -40px;
+  transition: background-color 0.2s ease;
+}
+
+.btnAsignarPrioridad:hover {
+  background-color: #632127;
+}
+
+.cuerpoServicio {
+  /*Estilos del cuerpo del servicio*/
+  font-size: 15px !important;
+}
+
+.btnIniciarCorte {
+  background-color: transparent;
+  border: 1px solid #0d6efd !important;
+  color: #7aa6e9;
+  border: none;
+  border-radius: 30px;
+  padding: 6px 18px;
+  margin-right: 10px;
+  margin-top: -40px;
+  transition: background-color 0.2s ease;
+}
+.btnIniciarCorte:hover {
+  background-color: #0d6dfd73;
+}
+
+.btnIniciarServicios {
+  background-color: transparent;
+  border: 1px solid #2fcff7 !important;
+  color: #45d4ff;
+  border: none;
+  border-radius: 30px;
+  padding: 6px 18px;
+  margin-right: 10px;
+  margin-top: -40px;
+  transition: background-color 0.2s ease;
+}
+.btnIniciarServicios:hover {
+  background-color: #2fcff785;
+}

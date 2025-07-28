@@ -1,0 +1,14 @@
+ 
+.headerServicios {
+  color: #13b7cc !important;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+.contenedorSolicitudPagina {
+  border: 1px solid #ccc; /* Añade un borde para mayor claridad */
+  background: red !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

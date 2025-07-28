@@ -1,0 +1,48 @@
+.containerServicio {
+  color: #bdbdbd !important;
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px !important;
+  background: #262626;
+  margin-left: 4px;
+  margin-right: 5px;
+  transition: transform 0.3s ease; /* Transición suave para el efecto de elevación */
+  border: 1px solid rgb(83, 83, 83);
+}
+
+.containerServicio:hover {
+  transform: translateY(
+    -4px
+  ); /* Eleva el elemento 5px hacia arriba al pasar el mouse */
+  background: #494949;
+  cursor: pointer;
+}
+/*Icon de engranes*/
+.containerIcon {
+  color: #4ea8de;
+  margin-top: 5px;
+}
+/*Servicio*/
+.containerItem {
+  color: #f2f2f2;
+}
+
+.btnEliminar {
+  border: none;
+  background-color: transparent;
+  color: #e25858;
+}
+.btnEliminar:hover {
+  color: white;
+  transition: all 0.3s;
+}
+
+.btnEditar {
+  border: none;
+  background-color: transparent;
+  color: #fcb859;
+}
+
+.btnEditar:hover {
+  color: white;
+  transition: all 0.3s;
+}

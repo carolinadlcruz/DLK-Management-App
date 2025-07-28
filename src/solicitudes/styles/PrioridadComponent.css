@@ -1,0 +1,20 @@
+/*Componente para las prioridades*/
+.priorityCard {
+  /*Estilos de la carta*/
+  background-color: #f8d7da;
+  color: #885b59 !important;
+  border-radius: 5px;
+}
+.priorityCard:hover {
+  /*Le damos estilo d ehover*/
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: translateY(
+    -4px
+  ); /* Eleva el elemento 5px hacia arriba al pasar el mouse */
+}
+
+.notAvailableCard{
+  background-color: rgb(172, 172, 172);
+  
+}

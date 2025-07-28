@@ -1,0 +1,67 @@
+.searchbox {
+  background-color: #323232 !important;
+  border: none;
+  padding: 0.3rem;
+  color: white;
+  width: 80%;
+}
+
+/*
+.searchContainerServices {
+  position: relative;
+  width: 300px;
+  margin-top: 35px;
+}
+.searchContainerServices input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #0b1221;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+*/
+/*
+.searchContainerServices span {
+  position: absolute;
+  left: 0;
+  padding: 20px 0px 10px;
+  pointer-events: none;
+  outline-color: #8f8f8f;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
+
+.searchContainerServices input:valid ~ span,
+.searchContainerServices input:focus ~ span {
+  color: #fff;
+  font-size: 0.75em;
+  transform: translateY(-34px);
+}
+
+.searchContainerServices i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.searchContainerServices input:valid ~ i,
+.searchContainer input:focus ~ i {
+    height: 44px;
+
+}
+
+*/

@@ -1,0 +1,116 @@
+.servicio {
+  background-color: #202020;
+  border: 1px solid #a9dfd8;
+}
+.containerServicioSolicitud {
+  font-family: inherit;
+  border: 0 !important;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0px 15px 15px 15px;
+  background: transparent;
+  transition: border-color 0.2s;
+  background-color: transparent;
+  border: 1px solid #102e5c !important;
+  margin-left: -10px !important;
+  box-shadow: 0 0 15px 1px rgba(1, 117, 252, 0.2) !important; /* Sombra exterior con difuminado */
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*Boton terminado*/
+.btnTerminar {
+  background: transparent;
+  border: none;
+  color: #4ea8de;
+}
+
+.card {
+  background-color: #1c1b29;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 0 2px 2px rgba(1, 117, 252, 0.2) !important; /* Sombra exterior con difuminado */
+  transition: transform 1s ease; /* Añadimos una transición para el efecto de desplazamiento */
+}
+
+.carta:hover {
+  cursor: pointer;
+  transform: translateY(-10px); /* Desplazamiento hacia arriba al hacer hover */
+  box-shadow: 0 0 6px 6px rgba(1, 117, 252, 0.2) !important; /* Sombra exterior con difuminado */
+}
+.containerCard {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  height: 50%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+.containerCard:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px 20px 0 0;
+  opacity: 0.7;
+}
+.card1 > .containerCard:after {
+  background-image: linear-gradient(135deg, #0100ec, #fb36f4);
+}
+.card2 > .containerCard:after {
+  background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+}
+.card3 > .containerCard:after {
+  background-image: linear-gradient(
+    180deg,
+    rgba(19, 183, 204, 1) 0%,
+    rgba(0, 13, 48, 1) 100%
+  );
+  opacity: 0.3;
+}
+.details {
+  padding: 20px 10px;
+}
+.details > h3 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+}
+.details > p {
+  color: #a0a0a0;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.details-container {
+  position: relative;
+  padding-left: 80px; /* Ajustar según el tamaño de tu icono */
+}
+
+.circle {
+  height: 20px !important;
+  width: 20px !important;
+  display: inline-block;
+  position: absolute;
+  left: 3%;
+  top: 41%;
+  transform: translateY(-50%);
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+.service-name {
+  margin-left: 80px; /* Ajustar según el tamaño de tu icono */
+}
+
+.iconoMostrarArchivo:hover {
+  cursor: pointer;
+}

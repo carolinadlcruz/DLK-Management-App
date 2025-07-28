@@ -1,0 +1,68 @@
+ .divMainSolicitudes{
+  border-radius: 5px !important;
+  background-color: #161A23 !important;
+   box-shadow: 0 0 10px 5px rgba(15, 25, 43, 0.5);
+  height: 100% !important;
+width: 100% !important;
+ }
+
+ .form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+  }
+ 
+  .divGraficas{
+    background-color: #323232 !important;
+    border: 1px solid #bdbdbd !important;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(185, 185, 185, 0.1);
+  }
+  .headerCard{
+    color: #0FADCC;
+  }
+
+  .form__field2 {
+    font-family: inherit;
+    border: 0 !important;
+    border-radius: 6px;
+    width: 100%;
+    outline: 0;
+    font-size: 1rem;
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+    background: transparent;
+    transition: border-color 0.2s;
+    background-color: transparent;
+    border: 0.4px solid #2D2F39 !important;
+    margin-left: -10px !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .search-icon{
+    margin-top: 45px !important;
+    margin-left: -35px;
+    color: #13B7CC !important;
+  }
+
+  .form__field::placeholder {
+    color: #bdbdbd;
+  }
+  
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+  }
+
+  
+ 

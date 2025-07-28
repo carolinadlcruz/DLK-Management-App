@@ -1,0 +1,57 @@
+.btn-salida{
+    position:  relative;
+    width: 150px;
+    height: 40px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    transition: 0.5s;
+    overflow: hidden;
+    font-size: 8px;
+}
+
+.btn-salida:hover{
+    padding-left: 0px;
+    padding-right: 40px;
+    color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+.btn-salida span{
+position: absolute;
+left: 5px;
+width: 30px;
+height: 30px;
+background: #04fe4d;
+border-radius: 50%;
+transition: 0.5s ease-in-out;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #1a191d;
+font-size: 1.5em;
+}
+
+.btn-salida:hover span{
+    left: calc(100% - 35px);
+}
+.btn-salida::after
+{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateX(-170px) skew(30deg);
+    transition: 0.75s ease-in-out;
+}
+.btn-salida:hover::after{
+    transform: translateX(180px) skew(30deg);
+
+}

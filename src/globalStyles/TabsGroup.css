@@ -1,0 +1,83 @@
+/* Container */
+.containerTabs {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+/* Composant */
+.tabs-wrapper {
+  --_bar_height: 4px;
+  --_bar-color: #BDBDBD;
+  --_bar-background-opacity: 0.2;
+
+  --_transition-time: .2s; /* Transition de la barre (width et transform) */
+
+  --_text-color: var(--_bar-color);
+  --_font-size: 18px;
+  
+  /* Ne pas toucher, les valeurs seront changées en JS */
+  --bar-width: 0;
+  --bar-offset: 0;
+  
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  padding-bottom: var(--_bar_height); /* La barre est dans le padding, comme ca y a pas d'overflow */
+}
+.tabs-wrapper::before,
+.tabs-wrapper::after {
+  position: absolute;
+  bottom: 0;
+  content: '';
+  height: var(--_bar_height);
+  width: 100%;
+  background: var(--_bar-color);
+  opacity: var(--_bar-background-opacity);
+  border-radius: var(--_bar_height);
+}
+.tabs-wrapper::after {
+  width: var(--bar-width);
+  opacity: 1;
+  transform: translateX(var(--bar-offset));
+  transition: width var(--_transition-time) ease, transform var(--_transition-time) ease;
+}
+.tabs-wrapper .tab {
+  padding: 0.5rem 2rem;
+  font-family: Arial;
+  font-size: var(--_font-size);
+  color: var(--_text-color);
+  cursor: pointer;
+  --user-select: none; /* Enleve le rectangle bleu de selection */
+}
+.tabs-wrapper .tab:focus-visible { /* Focus au clavier */
+  background: rgba(0,0,0,0.2);
+  outline: none;
+  border-radius: 5px 5px 0 0;
+}
+/* Agregar un estilo para el ícono seleccionado */
+.tabs-wrapper .tab.selected {
+  color: #13B7CC; /* Cambia este color al que desees para el ícono seleccionado */
+}
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.iconoPrioridad {
+  color: white;
+  background: #da2335;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-left: 12px;
+  padding: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.counter-animate {
+  animation: pop 0.3s ease-in-out;
+}

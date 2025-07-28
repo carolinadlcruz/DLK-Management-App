@@ -1,0 +1,25 @@
+.iconHeader{
+    color: #13B7CC;
+}
+
+.mainContainer{
+    min-height: 100vh;
+}
+
+.form__field2 {
+    font-family: inherit;
+    border: 0 !important;
+    border-radius: 6px;
+    width: 100%;
+    outline: 0;
+    font-size: 1rem;
+    color: #fff;
+    padding: 15px 15px 15px 15px;
+    background: transparent;
+    transition: border-color 0.2s;
+    background-color: transparent;
+    border: 0.4px solid #2D2F39 !important;
+    margin-left: -10px !important;
+    font-weight: 400;
+    font-style: normal;
+  }

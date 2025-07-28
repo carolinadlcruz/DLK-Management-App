@@ -1,0 +1,29 @@
+/*Estilos para la grafica de barras*/
+ /*Estilos de la grafica*/
+ .progress-container {
+    position: relative;
+    transition: 2s ease-in-out ;
+
+  }
+  
+  .progress-ring {
+    transform: rotate(-90deg);
+  }
+  
+  .progress-ring-circle {
+    transition: stroke-dashoffset 2s ease-in-out; /* Aquí ajusta el tiempo de la transición según tus preferencias */
+    transform: translate(5px, 5px);
+    transform-origin: 50% 50%;
+    /**/
+  
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff !important;
+    font-size: 8px;
+  }
